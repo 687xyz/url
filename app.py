@@ -18,7 +18,7 @@ def goto_link(name):
     if name in links:
         return redirect(links[name])
     else:
-        return '链接不存在!', 404
+        return process.env.PAGEERR, 404
 
 if __name__ == '__main__':
     app.run(debug=True)
