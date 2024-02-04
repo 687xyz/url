@@ -12,7 +12,4 @@
       "dest": "app.py"
     }
   ],
-  "env":{
-    "PAGEERR": "PAGEERR",
-  }
 }
